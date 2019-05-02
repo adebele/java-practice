@@ -44,6 +44,10 @@ public class Shopping {
 		//remove all items at once
 		shoppingList.clear();
 		System.out.println(shoppingList.toString());
+		
+		
+		double d = 90.0;
+		System.out.println(d);
 	
 	}
 }
