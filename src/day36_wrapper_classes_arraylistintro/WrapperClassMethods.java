@@ -43,12 +43,14 @@ public class WrapperClassMethods {
 		System.out.println(Character.isDigit('5'));
 		System.out.println(Character.isDigit('p'));
 		
+		System.out.println();
 		String str = "java101";
 		System.out.println(Character.isAlphabetic(str.charAt(0)));
 		System.out.println(Character.isDigit(str.charAt(6)));
 		
 		String word = "ab123c5dfer1";
 		
+		System.out.println();
 		for(int i=0; i<word.length(); i++) {
 			if(Character.isDigit(word.charAt(i))) {
 				System.out.print(word.charAt(i));
