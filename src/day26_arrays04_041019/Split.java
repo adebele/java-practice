@@ -1,10 +1,11 @@
 package day26_arrays04_041019;
 
 import java.util.Arrays;
-
+import java.util.*;
 public class Split {
 
 	public static void main(String[] args) {
+		
 		String words = "java,kava,html,selenium";
 		String[] wordsArray = words.split(",");
 		System.out.println("Count: " + wordsArray.length);
