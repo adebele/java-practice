@@ -10,17 +10,17 @@ public class Boxing {
 		
 		//Unboxing - converting object into primitive
 		//convert wrapper class object into primitive
-		Double d1 = new Double(34.2);
-		double d2 = d1;
-		
-		long l1 = new Long(600000); //unboxing
-		Long l2 = new Long(345323L);//creating an object
-		long l3 = l2; //unboxing
-		Long l4 = l3; //Autoboxing
-		
-		Integer num3 = Integer.valueOf(345);
-		//Double d3 = num3; 
-		Double d3 = (double)num3;
+//		Double d1 = new Double(34.2);
+//		double d2 = d1;
+//
+//		long l1 = new Long(600000); //unboxing
+//		Long l2 = new Long(345323L);//creating an object
+//		long l3 = l2; //unboxing
+//		Long l4 = l3; //Autoboxing
+//
+//		Integer num3 = Integer.valueOf(345);
+//		//Double d3 = num3;
+//		Double d3 = (double)num3;
 		
 		
 	}

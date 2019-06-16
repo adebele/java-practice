@@ -7,6 +7,7 @@ import java.util.List;
 public class CollectionsSorting {
 	public static void main(String[] args) {
 
+		
 		List<Integer> numsList = new ArrayList<>();
 		numsList.add(44);
 		numsList.add(1);

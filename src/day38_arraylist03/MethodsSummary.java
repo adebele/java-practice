@@ -8,9 +8,17 @@ public class MethodsSummary {
 		// add method to add a value
 		list1.add("red");
 		list1.add("blue");
-		list1.add("white");
+		list1.add("whiapplete");
 		list1.add("grey");
 		list1.add("black");
+		
+		
+		
+		
+		System.out.println(list1.get(2).contains("apple"));
+		
+		
+		
 		// add method with index: "yellow will be placed to index 0"
 		list1.add(0, "yellow");
 		// toString method to print all values in same line
@@ -23,7 +31,7 @@ public class MethodsSummary {
 		// remove using index.removes value from index position
 		list1.remove(0); // removes yellow from index 0
 		System.out.println(list1.toString());
-		// remove using value/element. removes element first occurence
+		// remove using value/element. removes element first occurrence
 		list1.remove("blue"); // removes blue
 		System.out.println(list1.toString());
 		// set(index, value) replace certain index with new value

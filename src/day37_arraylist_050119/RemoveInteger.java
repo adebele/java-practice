@@ -22,6 +22,7 @@ public class RemoveInteger {
 		
 		System.out.println(nums.toString());
 		nums.remove(5);//doesn't remove 5 but the object at index 5
+		
 		System.out.println(nums.toString());
 		
 		

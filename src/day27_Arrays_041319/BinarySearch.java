@@ -6,7 +6,9 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		int [] nums = {4, 6, 7,  9,  12, 55};
 		
-		Arrays.sort(nums);
+		//Arrays.sort(nums);
+		
+		
 		
 		System.out.println(Arrays.binarySearch(nums, 7));//2
 		System.out.println(Arrays.binarySearch(nums, 55));//4

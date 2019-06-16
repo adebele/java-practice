@@ -9,7 +9,11 @@ public class CarShop {
 		// 1. Step: Create an array of strings, and store these cars inside that array.
 
 		String[] cars = { "BMW", "Audi", "Ford", "Honda", "Mercedes", "Mercury", "Rolls-Royce", "Tesla" };
-
+		
+		Arrays.sort(cars);
+		
+		System.out.println(Arrays.toString(cars));
+		
 		//Car names that start M
 		for (String car : cars) {
 			if (car.startsWith("M")) {
