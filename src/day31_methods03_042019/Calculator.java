@@ -46,6 +46,7 @@ public class Calculator {
 
 	}
 
+
 	public static void divide(double num1, double num2) {
 		if (num2 != 0) {
 			System.out.println("Result: " + (num1 / num2));

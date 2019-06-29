@@ -2,14 +2,35 @@ package day29_methods01;
 
 public class Student {
 	public static void main(String[] args) {
-		sayHello();
-		study();
-		study();
-		code();
+//		sayHello();
+//		study();
+//		study();
+//		code();
+
+		System.out.println(countLetters("aaabbbccc"));
 	
 	
-	
-	
+	}
+	public static String countLetters(String str){
+		String countStr="", check="";
+
+
+		for(int i=0;i<str.length();i++){
+			int count=0;
+			String ch=str.charAt(i)+"";
+
+			for(int j=0;j<str.length();j++){
+
+				if(str.charAt(i)==(str.charAt(j)) && (!check.contains(ch))){
+					count++;
+				}
+			}
+			if(!check.contains(ch)){
+				check=count+""+str.charAt(i);
+				countStr+=check;
+			}
+		}
+		return countStr.trim();
 	}
 
 	public static void study() {

@@ -1,7 +1,7 @@
 package day61_polymorphism03;
 
-import day60_polymorphism.AppleDevice;
-import day60_polymorphism.*;
+import day60_polymorphism02.AppleDevice;
+import day60_polymorphism02.*;
 
 public class DownCasting {
     public static void main(String[] args) {
